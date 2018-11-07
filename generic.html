@@ -68,7 +68,7 @@ var chart = new CanvasJS.Chart("chart_senior", {
 			type: "stackedBar100",
 			toolTipContent: "<b>{name}:</b> {y} (#percent%)",
 			showInLegend: true, 
-			name: "Senior",
+			name: "Senior citizens",
 			dataPoints: [
 				{ y: 476, label: "Churn" },
 				{ y: 666, label: "No churn" }
@@ -78,7 +78,7 @@ var chart = new CanvasJS.Chart("chart_senior", {
 			type: "stackedBar100",
 			toolTipContent: "<b>{name}:</b> {y} (#percent%)",
 			showInLegend: true, 
-			name: "Not senior",
+			name: "Young citizens",
 			dataPoints: [
 				{ y: 1393, label: "Churn" },
 				{ y: 4508, label: "No churn" }
@@ -210,7 +210,7 @@ var chart = new CanvasJS.Chart("chart_phone", {
 	animationEnabled: true,
 	theme: "light2", //"light1", "dark1", "dark2"
 	title:{
-		text: "Churn by phone service"             
+		text: "Churn by mobile phone service"             
 	},
 	axisY:{
 		interval: 10,
@@ -223,7 +223,7 @@ var chart = new CanvasJS.Chart("chart_phone", {
 			type: "stackedBar100",
 			toolTipContent: "<b>{name}:</b> {y} (#percent%)",
 			showInLegend: true, 
-			name: "With phone service",
+			name: "With mobile phone service",
 			dataPoints: [
 				{ y: 1699, label: "Churn" },
 				{ y: 4662, label: "No churn" }
@@ -233,7 +233,7 @@ var chart = new CanvasJS.Chart("chart_phone", {
 			type: "stackedBar100",
 			toolTipContent: "<b>{name}:</b> {y} (#percent%)",
 			showInLegend: true, 
-			name: "No phone service",
+			name: "No mobile phone service",
 			dataPoints: [
 				{ y: 170, label: "Churn" },
 				{ y: 512, label: "No churn" }
